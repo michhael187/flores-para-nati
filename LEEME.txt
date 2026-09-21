@@ -14,6 +14,18 @@ Archivos:
   estilos.css       Diseño adaptable al celular y animaciones.
   assets/flor.png   Imagen de la flor.
   assets/favicon.svg Icono de la página.
+  assets/floricienta.mp3 Música de la página de flores.
+
+Música:
+  Se reproduce en flores.html y se repite al terminar.
+  Si el navegador bloquea el inicio automático, tocá el botón de reproducción.
+  El reproductor permite pausar, adelantar y ajustar el volumen según el navegador.
+  El audio está incluido en assets: subilo también al repositorio de GitHub.
+  Fuente del audio: https://web-flores.netlify.app/DATOS/img/Floricienta.mp3
+
+GitHub Pages:
+  Subí index.html, flores.html, estilos.css y la carpeta assets completa.
+  En Settings > Pages, elegí Deploy from a branch, tu rama y / (root).
 
 Para editar la carta, abrí flores.html con un editor de texto.
 Esta entrega es local, lista para que la subas. No cambia el sitio publicado anterior.
