@@ -12,6 +12,16 @@
 *{
   box-sizing:border-box
 }
+[hidden]{display:none!important}
+.music-button{
+  margin-top:10px;
+  padding:10px 18px;
+  border:1px solid #f3d377;
+  border-radius:24px;
+  background:#f2cf6c;
+  color:#142119;
+  cursor:pointer
+}
 html{
   scroll-behavior:smooth;
   background:var(--background)

@@ -8,6 +8,7 @@
   <title>Estas flores son para vos, Nati</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="estilos.css">
+  <script src="musica.js" defer></script>
 </head>
 <body>
   <main>
@@ -25,11 +26,11 @@
         <h1 id="garden-title">Un poquito de sol,<br><em>para Nati.</em></h1>
         <div class="music-player">
           <p id="music-label">Una canción para acompañar estas flores ♡</p>
-          <audio controls autoplay loop preload="metadata" aria-labelledby="music-label" aria-describedby="music-help">
-            <source src="assets/floricienta.mp3" type="audio/mpeg">
+          <button id="play-music" class="music-button" type="button" hidden>Escuchar música</button>
+          <audio src="assets/floricienta.mp3" controls loop preload="metadata" aria-labelledby="music-label" aria-describedby="music-help">
             Tu navegador no soporta audio. <a href="assets/floricienta.mp3">Escuchá la canción</a>.
           </audio>
-          <p id="music-help">Si no suena, tocá ▶ para escucharla.</p>
+          <p id="music-help" role="status">Tocá reproducir para escuchar la canción.</p>
         </div>
       </header>
       <div class="bouquet" role="img" aria-label="Un jardín de cinco flores amarillas luminosas que aparecen suavemente">

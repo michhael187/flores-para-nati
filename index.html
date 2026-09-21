@@ -8,6 +8,7 @@
   <title>Para Nati · Un poquito de sol</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="estilos.css">
+  <script src="musica.js" defer></script>
 </head>
 <body>
   <main>
@@ -27,6 +28,52 @@
       <a class="open-button" href="flores.html">Estas flores son para vos <span aria-hidden="true">↗</span></a>
       <span class="welcome-foot">Hecho con mucho amor</span>
     </section>
+    <div id="flowers-content">
+    <section class="garden" aria-labelledby="garden-title">
+      <header class="garden-heading">
+        <p class="eyebrow">SOLO PARA VOS</p>
+        <h1 id="garden-title">Un poquito de sol,<br><em>para Nati.</em></h1>
+        <div class="music-player">
+          <p id="music-label">Una canción para acompañar estas flores ♡</p>
+          <button id="play-music" class="music-button" type="button" hidden>Escuchar música</button>
+          <audio src="assets/floricienta.mp3" controls loop preload="metadata" aria-labelledby="music-label" aria-describedby="music-help">
+            Tu navegador no soporta audio. <a href="assets/floricienta.mp3">Escuchá la canción</a>.
+          </audio>
+          <p id="music-help" role="status">Tocá reproducir para escuchar la canción.</p>
+        </div>
+      </header>
+      <div class="bouquet" role="img" aria-label="Un jardín de cinco flores amarillas luminosas que aparecen suavemente">
+        <div class="flower flower-0"><div class="flower-grow"><img src="assets/flor.png" alt="" width="1024" height="1536"></div></div>
+        <div class="flower flower-1"><div class="flower-grow"><img src="assets/flor.png" alt="" width="1024" height="1536"></div></div>
+        <div class="flower flower-2"><div class="flower-grow"><img src="assets/flor.png" alt="" width="1024" height="1536"></div></div>
+        <div class="flower flower-3"><div class="flower-grow"><img src="assets/flor.png" alt="" width="1024" height="1536"></div></div>
+        <div class="flower flower-4"><div class="flower-grow"><img src="assets/flor.png" alt="" width="1024" height="1536"></div></div>
+        <div class="fireflies" aria-hidden="true">
+          <i style="left:15%;top:25%;animation-delay:0s"></i><i style="left:35%;top:45%;animation-delay:.4s"></i>
+          <i style="left:55%;top:15%;animation-delay:.8s"></i><i style="left:75%;top:35%;animation-delay:1.2s"></i>
+          <i style="left:25%;top:65%;animation-delay:1.6s"></i><i style="left:45%;top:75%;animation-delay:2s"></i>
+          <i style="left:65%;top:55%;animation-delay:2.4s"></i><i style="left:85%;top:65%;animation-delay:2.8s"></i>
+          <i style="left:18%;top:48%;animation-delay:3.2s"></i><i style="left:72%;top:20%;animation-delay:3.6s"></i>
+        </div>
+      </div>
+      <a class="scroll-note" href="#carta">Deslizá, hay algo más para vos<span aria-hidden="true">↓</span></a>
+    </section>
+    <section class="letter-section" id="carta" aria-labelledby="letter-title">
+      <article class="letter">
+        <span class="letter-star" aria-hidden="true">✧</span>
+        <p class="eyebrow">CON TODO MI CARIÑO</p>
+        <h2 id="letter-title">Para ti, <em>Nati</em> <span class="sunflower" aria-hidden="true">🌻</span></h2>
+        <div class="letter-copy">
+          <p>Dicen que los girasoles siempre buscan la luz del sol para crecer y brillar. Desde que llegaste a mi vida, tú te has convertido en esa luz que ilumina mis días y me llena de calidez. ✨</p>
+          <p>Este detalle es para recordarte lo mucho que significas para mí. Cada momento a tu lado es tan hermoso y especial como ver florecer un campo de girasoles. 🌻</p>
+          <p>Gracias por tu amor, por tu compañía y por hacer que mi mundo sea un lugar mejor. Eres mi persona favorita y siempre giraré hacia ti, buscando tu sonrisa. ❤️</p>
+          <p class="signature">Te quiero con todo mi corazón. 🫶</p>
+        </div>
+        <div class="letter-end" aria-hidden="true"><span></span>♡<span></span></div>
+      </article>
+      <footer>Para vos, siempre. <span aria-hidden="true">💛</span></footer>
+    </section>
+    </div>
   </main>
 </body>
 </html>

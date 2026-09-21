@@ -1,8 +1,10 @@
 FLORES PARA NATI — HTML Y CSS
 
 Para verla: abrí index.html con tu navegador. Funciona sin instalar nada.
-El botón abre flores.html; las animaciones están hechas con CSS.
-No requiere JavaScript, React, Node, PHP, compilación ni conexión a servicios externos.
+El botón muestra las flores e inicia la música dentro de la misma página.
+Usa musica.js para iniciar el audio con ese clic; las animaciones están hechas con CSS.
+No requiere React, Node, PHP, compilación ni conexión a servicios externos.
+Sin JavaScript, el botón abre flores.html y se puede usar el reproductor nativo.
 
 Para subirla: cargá el contenido de esta carpeta en la carpeta pública de tu hosting.
 index.html debe quedar en la raíz de esa carpeta. Conservá la carpeta assets.
@@ -12,19 +14,21 @@ Archivos:
   index.html        Bienvenida para Nati.
   flores.html       Flores y carta completa.
   estilos.css       Diseño adaptable al celular y animaciones.
+  musica.js         Apertura de las flores y controles de música.
   assets/flor.png   Imagen de la flor.
   assets/favicon.svg Icono de la página.
   assets/floricienta.mp3 Música de la página de flores.
 
 Música:
-  Se reproduce en flores.html y se repite al terminar.
-  Si el navegador bloquea el inicio automático, tocá el botón de reproducción.
+  En index.html, tocá Estas flores son para vos para iniciar la canción.
+  Si abrís flores.html directamente, tocá Escuchar música.
+  La canción se repite al terminar y se puede pausar.
   El reproductor permite pausar, adelantar y ajustar el volumen según el navegador.
   El audio está incluido en assets: subilo también al repositorio de GitHub.
   Fuente del audio: https://web-flores.netlify.app/DATOS/img/Floricienta.mp3
 
 GitHub Pages:
-  Subí index.html, flores.html, estilos.css y la carpeta assets completa.
+  Subí index.html, flores.html, estilos.css, musica.js y la carpeta assets completa.
   En Settings > Pages, elegí Deploy from a branch, tu rama y / (root).
 
 Para editar la carta, abrí flores.html con un editor de texto.
