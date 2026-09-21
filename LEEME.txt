@@ -1,0 +1,20 @@
+FLORES PARA NATI — HTML Y CSS
+
+Para verla: abrí index.html con tu navegador. Funciona sin instalar nada.
+El botón abre flores.html; las animaciones están hechas con CSS.
+No requiere JavaScript, React, Node, PHP, compilación ni conexión a servicios externos.
+
+Para subirla: cargá el contenido de esta carpeta en la carpeta pública de tu hosting.
+index.html debe quedar en la raíz de esa carpeta. Conservá la carpeta assets.
+También podés usar un hosting que acepte sitios estáticos.
+
+Archivos:
+  index.html        Bienvenida para Nati.
+  flores.html       Flores y carta completa.
+  estilos.css       Diseño adaptable al celular y animaciones.
+  assets/flor.png   Imagen de la flor.
+  assets/favicon.svg Icono de la página.
+
+Para editar la carta, abrí flores.html con un editor de texto.
+Esta entrega es local, lista para que la subas. No cambia el sitio publicado anterior.
+La etiqueta noindex solicita que no aparezca en buscadores, pero no protege el acceso.
